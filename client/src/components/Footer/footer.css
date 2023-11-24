@@ -1,0 +1,183 @@
+.footer{
+    width:100%;
+    max-width: 1024px;
+    font-size: 15px;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+
+}
+
+.footerWrapper{
+    display: flex;
+    /* width: 1024px; */
+    justify-content:space-around;
+
+}
+
+.footerLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fimg{
+    width: 60px;
+    height: 60px;
+}
+
+.ftitle{
+    color: gray;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 10px;
+    max-width: 200px;
+}
+
+.ftitle:hover{
+    color: rgb(248, 182, 38);
+}
+
+
+.ficons{
+    margin-top: 5px;
+    gap:16px;
+    display: flex;
+}
+
+.footerIcon{
+    color:gray;
+}
+
+.footerIcon:hover{
+    color: rgb(248, 182, 38);
+}
+
+.footerRight{
+    display: flex;
+    width: 700px;
+    justify-content:space-between;
+}
+
+.head-title{
+    text-decoration: underline;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 16px;
+    color:gray;
+}
+
+.content ul li:hover{
+    color:rgb(248, 182, 38);
+}
+
+.content ul li{
+    /* font-weight: 600; */
+    font-size: 14px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.contents{
+    margin-top: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    /* margin-left: 10px; */
+}
+
+.contactSection{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color:gray;
+
+}
+
+.contactSection:hover{
+    color:rgb(248, 182, 38);
+}
+
+.copyright{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 600px){
+
+    .footer{
+        margin: 5px;
+        font-size: 12px;
+    }
+
+    .footerWrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 330px;
+        /* width: 1024px; */
+        justify-content:space-evenly;
+    
+    }
+
+    .footerRight{
+        display: flex;
+        width: 370px;
+        justify-content:space-between;
+    }
+
+    .content ul{
+        gap: 4px;
+        font-size: 12px;
+    }
+
+    .content ul li{
+        font-size: 12px;
+    }
+
+    .contents{
+        margin-top: 10px;
+        gap: 3px;
+    }
+
+    .contactSection{
+        font-size: 10px;
+        gap: 3px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tagp{
+        width: 112px;
+    }
+
+    .ficons{
+        gap: 20px;
+    }
+
+    .copyright{
+        margin-top: 5px;
+    }
+}

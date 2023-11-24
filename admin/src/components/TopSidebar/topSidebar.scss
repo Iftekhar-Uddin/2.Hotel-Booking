@@ -1,0 +1,34 @@
+.centertopside {
+    height: 95px;
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius:3px;
+    background-color: #ffffff;
+    padding: 8px;
+    z-index: 999;
+
+      li {
+        display: flex;
+        align-items: center;
+        padding: 0px;
+        cursor: pointer;
+        border-radius:2px;
+
+
+        .icon {
+          font-size: 18px;
+          color: #00cfa2;
+        }
+
+        span{
+          font-size: 14px;
+          font-weight: 500;
+          // color: #888;
+          margin-left: 6px;
+          color: #00cfa2;
+        }
+      }
+    // }
+}

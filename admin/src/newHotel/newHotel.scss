@@ -1,0 +1,188 @@
+.amarnewhotel{
+.hnew {
+  width: 100%;
+  display: flex;
+
+  .hnewContainer {
+    flex: 6;
+
+    .htop,
+    .hbottom {
+      -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+      box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+      padding: 10px;
+      margin: 20px;
+      display: flex;
+
+      h1 {
+        color: lightgray;
+        font-size: 20px;
+      }
+
+      .hleft {
+        flex: 1;
+        text-align: center;
+
+        img {
+          margin-top: 20px;
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+      }
+
+      .hright {
+        flex: 2;
+
+        form {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 30px;
+          justify-content: space-around;
+
+          .hselectRooms{
+            width: 92%;
+
+            select{
+              width: 100%;
+              padding: 10px;
+            }
+          }
+
+          .hformInput {
+            width: 40%;
+
+            label {
+              display: flex;
+              align-items: center;
+              gap: 10px;
+
+              .hicon {
+                cursor: pointer;
+              }
+            }
+
+            input {
+              width: 100%;
+              padding: 5px;
+              border: none;
+              border-bottom: 1px solid gray;
+            }
+          }
+
+          button {
+            width: 150px;
+            padding: 10px;
+            border: none;
+            background-color: rgb(3, 211, 159);
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px){
+  .hnew {
+    width: 100%;
+    display: flex;
+
+    .sidebarrhnew{
+      display: none
+    }
+  
+    .hnewContainer {
+      flex: 6;
+  
+      .htop,
+      .hbottom {
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+        box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+        padding: 3px;
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        width: 335px;
+        margin-left: 27px;
+  
+        h1 {
+          color: lightgray;
+          font-size: 18px;
+        }
+  
+        .hleft {
+          flex: 1;
+          text-align: center;
+  
+          img {
+            margin-top: 7px;
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            object-fit: cover;
+          }
+        }
+  
+        .hright {
+          flex: 2;
+  
+          form {
+            margin-top: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            justify-content: space-around;
+  
+            .hselectRooms{
+              width: 88%;
+  
+              select{
+                width: 100%;
+                padding: 7px;
+              }
+            }
+  
+            .hformInput {
+              width: 35%;
+  
+              label {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+  
+                .hicon {
+                  cursor: pointer;
+                }
+              }
+  
+              input {
+                width: 100%;
+                padding: 3px;
+                border: none;
+                border-bottom: 1px solid gray;
+              }
+            }
+  
+            button {
+              width: 120px;
+              padding: 7px;
+              border: none;
+              background-color: rgb(3, 211, 159);
+              color: white;
+              font-weight: bold;
+              cursor: pointer;
+              margin-top: 7px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+}

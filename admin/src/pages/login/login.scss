@@ -1,0 +1,68 @@
+.login{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(99, 175, 175);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+
+  .adminpanel{
+    color:rgb(255, 255, 255);
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-family: serif;
+  }
+
+
+  .lContainer{
+    .loginnnbox{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 200px;
+      width: 270px;
+      // border: 1px solid rgb(163, 162, 162);
+      // background-color: rgb(204, 203, 203);
+      border-radius: 7px;
+
+      .labeling{
+        color:rgb(0, 0, 0);
+        padding-left: 24px;
+        padding-top: 8px;
+      }
+
+      .lInput{
+        margin-bottom:10px;
+        padding-left: 5px;
+        margin-left:23px;
+        margin-right:23px;
+        height: 35px;
+        background-color: rgb(255, 255, 255);
+        color:rgb(0, 0, 0);
+        border: 1px solid rgb(128, 128, 128);
+        border-radius: 3px;
+      }
+
+      .lButton{
+        margin: 10px 90px;
+        padding: 7px 0px;
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+        border: none;
+        border-radius: 5px;
+      }
+
+      .errormsg{
+        display: flex;
+        justify-content: center;
+      }
+
+    }
+
+  }
+
+}

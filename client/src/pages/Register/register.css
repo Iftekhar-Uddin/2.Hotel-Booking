@@ -1,0 +1,176 @@
+.register{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(233, 143, 9, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.registerWrapper{
+    margin-top: 100px;
+    height: 830px;
+
+}
+
+.registerLeft{
+    text-align: center;
+}
+
+.registerRight{
+    margin-top: 20px;
+}
+
+.registerLogo{
+    /* padding-right:300px; */
+    font-size: 50px;
+    font-weight: 800;
+    color:#ff9900;
+}
+
+.registerDesc{
+    /* padding-right: 350px; */
+    font-size: 22px;
+    color:#8d8a8a;
+}
+
+.registerBox{
+    position:relative;
+    height: 600px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.registerInput{
+    margin-bottom: 9px;
+    height: 37px;
+    border-radius: 6px;
+    border: 1px solid gray;
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+
+.registerButton{
+    height: 45px;
+    border-radius: 6px;
+    margin-top:15px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    font-size: 19px;
+    font-weight: 600;
+    cursor: pointer;
+    /* margin-left: 50px;
+    margin-right: 50px; */
+}
+
+.labelName{
+    padding-left: 2px;
+    margin-top: 0px;
+}
+
+
+.showPass1{
+    display: flex;
+    justify-content: flex-end;
+    color:#9b9393;
+    cursor:pointer;
+    position:absolute;
+    width: 45px;
+    bottom: 141px;
+    right:35px;
+}
+
+
+
+.loginRegister{
+    width:100%;
+    border:none;
+    display:flex;
+    /* padding-bottom: 7px;
+    padding-right: 10px; */
+    justify-content: flex-end;
+    background: none;
+    cursor:pointer;
+    font-size: 14px;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+
+.registerlink{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color:rgb(255, 153, 0);
+}
+
+/* .inputName{
+    display:flex;
+    justify-content:space-between;
+    flex-direction: row;
+} */
+
+@media screen and (max-width: 600px){
+    .registerWrapper{
+        margin-top: 20px;
+        height: 100vh;
+    }
+
+    .registerRight{
+        margin-top: 20px;
+    }
+    
+    .registerLogo{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    
+    .registerDesc{
+        font-size: 19px;
+    }
+    
+    .registerBox{
+        height: 550px;
+        padding: 15px;
+    }
+    
+    .registerInput{
+        height: 30px;
+        border-radius: 5px;
+        font-size: 13px;
+        padding-left: 3px;
+    }
+    
+    
+    .registerButton{
+        height: 35px;
+        border-radius: 5px;
+        margin-top:12px;
+        font-size: 18px;
+        font-weight: 400;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .showPass1{
+        width: 35px;
+        bottom: 122px;
+        right:25px;
+        font-size:14px;
+    }
+
+    .loginRegister{
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+        margin-bottom: 0px;
+        padding-bottom: 5px;
+    }
+    
+}
